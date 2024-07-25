@@ -2616,18 +2616,6 @@ textarea.form-control-lg {
   margin-right: 1rem;
 }
 
-.btn-check {
-  position: absolute;
-  clip: rect(0, 0, 0, 0);
-  pointer-events: none;
-}
-.btn-check[disabled] + .btn, .btn-check:disabled + .btn {
-  pointer-events: none;
-  -webkit-filter: none;
-          filter: none;
-  opacity: 0.65;
-}
-
 .form-range {
   width: 100%;
   height: 1.5rem;
@@ -15295,45 +15283,6 @@ textarea.form-control-lg {
     width: 400px !important;
   }
 }
-.breadcrumb-item a {
-  color: #747579;
-}
-.breadcrumb-item a:hover {
-  color: #066ac9;
-}
-
-.breadcrumb.breadcrumb-dark .breadcrumb-item a {
-  color: #dde0e3;
-}
-.breadcrumb.breadcrumb-dark .breadcrumb-item a:hover {
-  color: #066ac9;
-}
-.breadcrumb.breadcrumb-dark .breadcrumb-item.active {
-  color: #cfd3d7;
-}
-
-.breadcrumb.breadcrumb-dots .breadcrumb-item + .breadcrumb-item::before {
-  content: "•";
-  font-size: 22px;
-  line-height: 0;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.btn {
-  letter-spacing: 0.5px;
-  position: relative;
-  overflow: hidden;
-  outline: 0;
-  white-space: nowrap;
-  margin-bottom: 6px;
-}
-
 .input-group .btn {
   margin-bottom: 0;
 }
