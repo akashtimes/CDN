@@ -15536,17 +15536,6 @@ video {
   width: 100%;
 }
 
-section {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-@media (max-width: 767.98px) {
-  section {
-    padding-top: 4rem;
-    padding-bottom: 3rem;
-  }
-}
 small,
 .small {
   font-weight: 400;
